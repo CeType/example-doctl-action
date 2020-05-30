@@ -46,4 +46,4 @@ jobs:
       run: kubectl rollout status deployment/static-example
     
     - name: Find IP
-      run: kubectl describe services example-service
+      run: kubectl describe services static-example-service
